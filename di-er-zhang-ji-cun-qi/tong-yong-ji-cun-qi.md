@@ -4,5 +4,13 @@
 
 为了兼容上一代CPU（寄存器为8位），这个四个通用寄存器又独立的分为AH，AL，BH，BL，CH，CL，DH，DL。
 
+几种汇编指令
+
+* mov ax, 18
+* mov ah, 78
+* add ax, 8
+* mov ax, bx
+* add ax, bx
+
 
 
