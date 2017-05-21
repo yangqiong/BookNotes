@@ -1,3 +1,14 @@
-# First Chapter
+## 总线
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+### 地址总线
+
+地址总线的宽度决定了CPU的寻址能力。
+
+如果一个CPU有13根地址线，则可以寻找2的13次方个存储单元。而一个存储单元是1个字节即8位，则寻址能力8192B = 8KB。
+
+### 数据总线
+
+### 控制总线
+
+
+
