@@ -12,7 +12,7 @@
 
 ## 内存泄露检测
 
-heapdump: ` let heapdump = require('heapdump');`  
+heapdump: `let heapdump = require('heapdump')`; 内存泄露的时候会生成`heap-dump-<sec>.<usec>.heapsnapshot`文件，然后通过Chrome的开发者工具的Memory进行分析
 
-
+memwatch-next: 全队垃圾回收会触发stats事件，经过5次垃圾回收内容仍然没有释放会触发lead事件，可以对堆内存进行比较
 
