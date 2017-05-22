@@ -20,7 +20,9 @@ memwatch-next: 全队垃圾回收会触发stats事件，经过5次垃圾回收�
 
 ## 大内存应用场景
 
+操作大文件，Node提供了Stream模块。
+
 对于读取或者写入大文件由于V8内存限制无法使用fs.readFile，fs.writeFile；可以通过fs.createReadStream和fs.createWreiteStream或者pipe来操作。
 
-
+对于不是字符串层面的操作可以使用Buffer，Buffer使用堆外内存。
 
