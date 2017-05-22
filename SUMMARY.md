@@ -11,4 +11,5 @@
 * [深入检出Node.js](shen-ru-jian-chu-node-js.md)
   * [第五章 内存控制](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi.md)
     * [内存信息](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/nei-cun-xin-xi.md)
+    * [内存泄露](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/nei-cun-xie-lu.md)
 
