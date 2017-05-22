@@ -10,4 +10,5 @@
     * [段寄存器](hui-bian-yu-yan/di-er-zhang-ji-cun-qi/duan-ji-cun-qi.md)
 * [深入检出Node.js](shen-ru-jian-chu-node-js.md)
   * [第五章 内存控制](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi.md)
+    * [内存信息](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/nei-cun-xin-xi.md)
 
