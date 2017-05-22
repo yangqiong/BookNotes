@@ -31,7 +31,7 @@ console.log(decoder.write(buf2)) // 国人
 ```
 var rs = fs.createReadStream("data.txt");
 var chunks = [];
-var size = 0;
+var size = 0; // 提供size，处理效率更高
 rs.on("data", function(trunk){
     chunks.push(trunk);
     size += chunk.length;
