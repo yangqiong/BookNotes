@@ -14,5 +14,5 @@ buf.toString\(\[encoding \[,start \[, end\]\]\]\)
 
 Buffer.isEncoding\(encoding\)判断编码是否支持转换
 
-对于不支持的编码类型，可以借助iconv和iconv-lite实现
+对于不支持的编码类型，可以借助iconv（C++实现）和iconv-lite（JavaSciript实现）实现
 
