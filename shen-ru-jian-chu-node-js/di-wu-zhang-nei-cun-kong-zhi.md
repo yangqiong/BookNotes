@@ -8,5 +8,11 @@
   external: 8736 }
 ```
 
-rss: Resident Set Size 常驻内存大小；包括Code Segment，Stack，Heap（V8堆内存），External（堆外内存）。
+rss: Resident Set Size 常驻内存大小；包括Code Segment，Stack，Heap（V8堆内存），External（堆外内存）。[\[参考链接\]](http://stackoverflow.com/questions/12023359/what-do-the-return-values-of-node-js-process-memoryusage-stand-for)
+
+heapTotal V8为堆内存分配的总大小，heapUsed为已使用的堆内存大小。
+
+默认情况下 64位系统堆内存约1.4G，32位系统堆内存约为0.7G。
+
+V8堆内存分为新生代内存空间和老生代内存空间。
 
