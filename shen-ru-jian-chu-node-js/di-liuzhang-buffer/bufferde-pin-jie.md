@@ -26,5 +26,22 @@ var buf2 = Buffer.from([0x9b, 0xbd, 0xe4, 0xba, 0xba])
 console.log(decoder.write(buf2)) // 国人
 ```
 
+## 解决办法2（正确的拼接Buffer姿势）
+
+```
+var rs = fs.createReadStream("data.txt");
+var chunks = [];
+var size = 0;
+rs.on("data", function(trunk){
+    chunks.push(trunk);
+    size += chunk.length;
+})
+rs.on("end", function(){
+    var buf = Buffer.concat(chunks, size);
+    var str = iconv.decode(buf, "utf8");
+    console.log(str);
+})
+```
+
 
 
