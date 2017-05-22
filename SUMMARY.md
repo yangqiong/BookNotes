@@ -17,4 +17,5 @@
     * [Buffer对象构建](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferdui-xiang-gou-jian.md)
     * [Buffer内存分配](shen-ru-jian-chu-node-js/di-liuzhang-buffer/buffernei-cun-fen-pei.md)
     * [Buffer的转换](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferde-zhuan-huan.md)
+    * [Buffer的拼接](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferde-pin-jie.md)
 
