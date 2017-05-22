@@ -10,11 +10,9 @@
 * 队列消费不及时
 * 作用域未释放
 
-
-
 ## 内存泄露检测
 
-* heapdump
+heapdump: ` let heapdump = require('heapdump');`  
 
 
 
