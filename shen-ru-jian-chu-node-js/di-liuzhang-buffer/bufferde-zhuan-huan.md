@@ -6,5 +6,9 @@ Buffer.from\(string \[, encoding\]\)
 
 buf.write\(string, \[offset, \[, length\]\]\[, encoding\]\)
 
+## Buffer转字符串
+
+buf.toString\(\[encoding \[,start \[, end\]\]\]\)
+
 
 
