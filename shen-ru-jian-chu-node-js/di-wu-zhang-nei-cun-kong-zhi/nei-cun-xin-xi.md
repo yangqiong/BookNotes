@@ -1,4 +1,4 @@
-## 查看内存信息
+## 内存信息
 
 ```
 > process.memoryUsage()
