@@ -6,5 +6,7 @@
 * Buffer.allocUnsafe\(size\) 返回一个新的Buffer对象，未被初始化，可能经过pool创建
 * Buffer.allocUnsafeSlow\(size\) 返回一个新的Buffer对象，不经过内置pool创建
 
+是否经过pool创建，可以观察buf.parent.byteLength是否跟传入的参数创建的一致还是跟Buffer.poolSize一样
+
 
 
