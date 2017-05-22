@@ -16,3 +16,11 @@ rs.on("end", function(){
 
 rs.setEncoding\("utf8"\)，原因在于调用setEncoding时，可读流对象内置了decoder对象，此对象来源于string\_decoder模块StringDecoder对象。
 
+```
+// Buffer.from("中国人") <Buffer e4 b8 ad e5 9b bd>
+var StringDecoder = requrie("string_decoder").StringDecoder;
+var buf1 = new Buffer([0x e4])
+```
+
+
+
