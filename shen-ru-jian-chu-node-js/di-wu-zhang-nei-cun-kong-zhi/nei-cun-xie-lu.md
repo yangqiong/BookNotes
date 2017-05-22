@@ -16,3 +16,5 @@ heapdump: `let heapdump = require('heapdump')`; 内存泄露的时候会生成`h
 
 memwatch-next: 全队垃圾回收会触发stats事件，经过5次垃圾回收内容仍然没有释放会触发lead事件，可以对堆内存进行比较
 
+缺少实践
+
