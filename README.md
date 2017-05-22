@@ -1,3 +1,9 @@
-# My Awesome Book
+## 读书笔记
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+---
+
+* 汇编语言（王爽）
+* 深入浅出Node.js
+
+
+
