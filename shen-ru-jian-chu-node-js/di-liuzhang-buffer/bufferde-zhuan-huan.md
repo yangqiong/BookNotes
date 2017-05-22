@@ -10,5 +10,9 @@ buf.write\(string, \[offset, \[, length\]\]\[, encoding\]\)
 
 buf.toString\(\[encoding \[,start \[, end\]\]\]\)
 
+## Buffer编码类型
+
+Buffer.isEncoding\(encoding\)判断编码是否支持转换
+
 
 
