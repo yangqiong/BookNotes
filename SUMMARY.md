@@ -14,5 +14,6 @@
     * [内存泄露](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/nei-cun-xie-lu.md)
     * [垃圾回收机制](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/la-ji-hui-shou-ji-zhi.md)
   * [第六章 Buffer](shen-ru-jian-chu-node-js/di-liuzhang-buffer.md)
-    * Buffer对象构建
+    * [Buffer对象构建](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferdui-xiang-gou-jian.md)
+    * [Buffer内存分配](shen-ru-jian-chu-node-js/di-liuzhang-buffer/buffernei-cun-fen-pei.md)
 
