@@ -19,6 +19,6 @@
     * [Buffer的转换](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferde-zhuan-huan.md)
     * [Buffer的拼接](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferde-pin-jie.md)
     * [Buffer与性能](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferyu-xing-neng.md)
-    * Buffer与ArrayBuffer
-    * Buffer其他方法
+    * [Buffer与ArrayBuffer](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferyu-arraybuffer.md)
+    * [Buffer其他方法](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferqi-ta-fang-fa.md)
 
