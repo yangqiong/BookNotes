@@ -52,5 +52,13 @@ console.log(buf); // <Buffer 88 13 70 17>
 
 ### buf.readInt16BE，buf.readInt16LE 等
 
+```
+var buf = Buffer.from([0, 5]);
+buf.readInt16BE(); // 5
+buf.readInt16LE(); // 1280
+buf.readInt16LE(1); // Throws an exception: RangeError: Index out of range 默认为报错不足两位
+buf.readInt16LE(1, true) // 5
+```
+
 
 
