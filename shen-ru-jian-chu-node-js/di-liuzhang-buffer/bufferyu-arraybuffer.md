@@ -47,8 +47,10 @@ arr[1] = 4000; // 0x0fa0
 var buf = Buffer.from(arr.buffer); // <Buffer 88 13 a0 0f>    不是Buffer.from(arr) 
 // 也体现了大小端
 arr[1] = 6000;
-console.log(buf); // <Buffer 88 13 70 17> 
+console.log(buf); // <Buffer 88 13 70 17>
 ```
+
+### buf.readInt16BE，buf.readInt16LE 等
 
 
 
