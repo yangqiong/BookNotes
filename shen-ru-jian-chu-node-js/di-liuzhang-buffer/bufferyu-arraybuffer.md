@@ -40,5 +40,12 @@ Int16Array [ 3584, 0, 0, 0, 0 ]
 
 实例有个byteLength属性返回被引用的ArrayBuffer的字节数
 
+```
+var arr = new Uint16Array(2);
+arr[0] = 5000;
+arr[1] = 4000;
+var buf = Buffer.from(arr.buffer);
+```
+
 
 
