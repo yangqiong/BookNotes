@@ -36,7 +36,13 @@ Int16Array [ 3584, 0, 0, 0, 0 ]
 * Float32Array
 * Float64Array
 
-Buffer对象即为Uint8Array对象 
+实例有个buffer属性返回被引用的ArrayBuffer
+
+实例有个byteLength属性返回被引用的ArrayBuffer的字节数
+
+
+
+Buffer对象即为Uint8Array对象
 
 **区别ArrayBuffer对象,TypedArray对象的slice方法返回的是原对象的拷贝，而Buffer对象的slice方法返回的是原对象的引用**
 
@@ -47,19 +53,32 @@ buf1.buffer                     //  ArrayBuffer { byteLength: 8 }
 buf2.buffer                     //  ArrayBuffer { byteLength: 8 }
 ```
 
-实例有个buffer属性返回被引用的ArrayBuffer
+**Buffer.from\(TypedArray对象\) 拷贝 与Buffer.from\(ArrayBuffer\)引用**
 
-实例有个byteLength属性返回被引用的ArrayBuffer的字节数
+    const arr = new Uint16Array(2);
 
-```
-var arr = new Uint16Array(2);
-arr[0] = 5000; // 0x1388
-arr[1] = 4000; // 0x0fa0
-var buf = Buffer.from(arr.buffer); // <Buffer 88 13 a0 0f>    不是Buffer.from(arr) 
-// 也体现了大小端
-arr[1] = 6000;
-console.log(buf); // <Buffer 88 13 70 17>
-```
+    arr[0] = 5000; // 0x1388
+    arr[1] = 4000; // 0x0fa0
+
+    // Copies the contents of `arr`
+    const buf1 = Buffer.from(arr);
+
+    // Shares memory with `arr`
+    const buf2 = Buffer.from(arr.buffer);
+
+    // Prints: <Buffer 88 a0>
+    console.log(buf1);
+
+    // Prints: <Buffer 88 13 a0 0f> // 也体现了计算机是属于小
+    console.log(buf2);
+
+    arr[1] = 6000;
+
+    // Prints: <Buffer 88 a0>
+    console.log(buf1);
+
+    // Prints: <Buffer 88 13 70 17>
+    console.log(buf2);
 
 ### buf.readInt16BE，buf.readInt16LE 等
 
