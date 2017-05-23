@@ -36,13 +36,15 @@ Int16Array [ 3584, 0, 0, 0, 0 ]
 * Float32Array
 * Float64Array
 
-Buffer对象即为Uint8Array对象
+Buffer对象即为Uint8Array对象 
+
+**区别ArrayBuffer对象,TypedArray对象的slice方法返回的是原对象的拷贝，而Buffer对象的slice方法返回的是原对象的引用**
 
 ```
-var buf1 = Buffer.alloc(8);
-var buf2 = new Uint8Array(8);
-buf1.buffer // <Buffer 00 00 00 00 00 00 00 00>
-buf2.buffer // <Buffer 00 00 00 00 00 00 00 00>
+var buf1 = Buffer.alloc(8);     // <Buffer 00 00 00 00 00 00 00 00>
+var buf2 = new Uint8Array(8);   // <Buffer 00 00 00 00 00 00 00 00>
+buf1.buffer                     //  ArrayBuffer { byteLength: 8 }
+buf2.buffer                     //  ArrayBuffer { byteLength: 8 }
 ```
 
 实例有个buffer属性返回被引用的ArrayBuffer
