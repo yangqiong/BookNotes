@@ -36,6 +36,15 @@ Int16Array [ 3584, 0, 0, 0, 0 ]
 * Float32Array
 * Float64Array
 
+Buffer对象即为Uint8Array
+
+```
+var buf1 = Buffer.alloc(8);
+var buf2 = new Uint8Array(8);
+buf1.buffer // <Buffer 00 00 00 00 00 00 00 00>
+buf2.buffer // <Buffer 00 00 00 00 00 00 00 00>
+```
+
 实例有个buffer属性返回被引用的ArrayBuffer
 
 实例有个byteLength属性返回被引用的ArrayBuffer的字节数
