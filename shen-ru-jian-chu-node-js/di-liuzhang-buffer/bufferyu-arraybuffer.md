@@ -36,5 +36,9 @@ Int16Array [ 3584, 0, 0, 0, 0 ]
 * Float32Array
 * Float64Array
 
+实例有个buffer属性返回被引用的ArrayBuffer
+
+实例有个byteLength属性返回被引用的ArrayBuffer的字节数
+
 
 
