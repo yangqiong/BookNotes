@@ -36,7 +36,7 @@ Int16Array [ 3584, 0, 0, 0, 0 ]
 * Float32Array
 * Float64Array
 
-Buffer对象即为Uint8Array
+Buffer对象即为Uint8Array对象
 
 ```
 var buf1 = Buffer.alloc(8);
