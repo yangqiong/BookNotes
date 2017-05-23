@@ -42,9 +42,10 @@ Int16Array [ 3584, 0, 0, 0, 0 ]
 
 ```
 var arr = new Uint16Array(2);
-arr[0] = 5000;
-arr[1] = 4000;
-var buf = Buffer.from(arr.buffer);
+arr[0] = 5000; // 0x1388
+arr[1] = 4000; // 0x0fa0
+var buf = Buffer.from(arr.buffer); // <Buffer 88 13 a0 0f>    不是Buffer.from(arr) 
+// 也体现了大小端
 ```
 
 
