@@ -91,7 +91,7 @@ myEmitter.emit('error', new Error('whoops!'));
 
 ## 异步执行
 
-回调函数还是顺序同步执行，只是其中的具体任务变成异步
+回调函数还是顺序同步执行，只是其中的函数的执行主体变成了异步
 
 ```
 var myEmitter = new MyEmitter();
