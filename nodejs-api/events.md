@@ -74,7 +74,10 @@ myEmitter.emit('event', 'a', 'b');
 
 ## 其他方法
 
-* emitter.eventNames\(\) 获取监听的事件名称
-* 
+* emitter.eventNames\(\) 获取所有监听的事件名称
+* emitter.listenerCount\(eventName\) 获取某个监听事件的个数
+
+* emitter.
+
 
 
