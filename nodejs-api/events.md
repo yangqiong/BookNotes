@@ -15,7 +15,7 @@ myEmitter.on('error', (err) => {
 myEmitter.emit('error', new Error('whoops!'));
 ```
 
-其次
+其次解决办法
 
 ```
 var myEmitter = new MyEmitter();
