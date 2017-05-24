@@ -5,6 +5,37 @@ Nodejs Events模块只是发布-订阅模式（观察者模式）的一种官方
 * 执行顺序：如果对同一个事件监听了多次，当触发此事件时，按监听的顺序执行回调函数。
 * 回调函数的执行过程是同步的，一个接着一个执行。
 
+## 监听多次
+
+如果通过on对事件监听多次，则回调顺序执行；如果通过prependListener对事件监听多次，则后监听先执行
+
+```
+var myEmitter = new MyEmitter();
+myEmitter.on('event', (a, b) => {
+  console.log("on1")
+});
+
+myEmitter.prependListener('event', function(){
+    console.log("prepend1")
+})
+
+myEmitter.prependListener('event', function(){
+    console.log("prepend2")
+})
+
+myEmitter.on('event', (a, b) => {
+  console.log("on2")
+});
+
+myEmitter.emit('event', 'a', 'b');
+
+// 结果
+// prepend2
+// prepend1
+// on1
+// on2
+```
+
 ## 监听传参和this
 
 回调函数中的参数个数随意
@@ -76,8 +107,23 @@ myEmitter.emit('event', 'a', 'b');
 
 * emitter.eventNames\(\) 获取所有监听的事件名称
 * emitter.listenerCount\(eventName\) 获取某个监听事件的个数
-
 * emitter.listeners\(eventName\) 返回监听此事件的回调函数构成的数组
+
+```
+var myEmitter = new MyEmitter();
+myEmitter.on('event', (a, b) => {
+  console.log(a, b);
+});
+myEmitter.emit('event', 'a', 'b');
+
+
+console.log(util.inspect(myEmitter.listeners('event'))); // Prints: [ [Function] ]
+for (let fun of myEmitter.listeners('event')){
+    fun(1, 2); // Prints: 1, 2
+}
+```
+
+
 
 
 
