@@ -34,6 +34,8 @@ myEmitter.on('event', (a, b) => {
 myEmitter.emit('event', 'a', 'b');
 ```
 
+### error 事件
+
 默认没有erroer事件，如果触发此事件而没有监听，讲跑出异常，程序退出。解决办法
 
 ```
