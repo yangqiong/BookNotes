@@ -21,4 +21,6 @@
     * [Buffer与性能](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferyu-xing-neng.md)
     * [Buffer与ArrayBuffer](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferyu-arraybuffer.md)
     * [Buffer方法](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferqi-ta-fang-fa.md)
+* [其他](qi-ta.md)
+  * [字符编码](qi-ta/zi-fu-bian-ma.md)
 
