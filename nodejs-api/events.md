@@ -89,7 +89,7 @@ process.on('uncaughtException', (err) => {
 myEmitter.emit('error', new Error('whoops!'));
 ```
 
-## 特殊情况
+## 如果想回调异步执行
 
 希望回调函数的能够异步执行
 
@@ -122,8 +122,6 @@ for (let fun of myEmitter.listeners('event')){
     fun(1, 2); // Prints: 1, 2
 }
 ```
-
-
 
 
 
