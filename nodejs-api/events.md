@@ -8,7 +8,28 @@ Nodejs Events模块只是发布-订阅模式（观察者模式）的一种官方
 ## 监听传参和this
 
 ```
+var myEmitter = new MyEmitter();
+myEmitter.on('event', function(a, b) {
+  console.log(a, b, this);
+  // Prints:
+  //   a b MyEmitter {
+  //     domain: null,
+  //     _events: { event: [Function] },
+  //     _eventsCount: 1,
+  //     _maxListeners: undefined }
+});
+myEmitter.emit('event', 'a', 'b');
+```
 
+ES6中的箭头回调函数
+
+```
+var myEmitter = new MyEmitter();
+myEmitter.on('event', (a, b) => {
+  console.log(a, b, this);
+  // Prints: a b {}
+});
+myEmitter.emit('event', 'a', 'b');
 ```
 
 默认没有erroer事件，如果触发此事件而没有监听，讲跑出异常，程序退出。解决办法
@@ -51,7 +72,5 @@ myEmitter.emit('event', 'a', 'b');
 
 * emitter.eventNames\(\) 获取监听的事件名称
 * 
-
-
 
 
