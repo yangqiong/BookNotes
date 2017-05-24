@@ -7,6 +7,8 @@ Nodejs Events模块只是发布-订阅模式（观察者模式）的一种官方
 
 ## 监听传参和this
 
+回调函数中的参数个数随意
+
 ```
 var myEmitter = new MyEmitter();
 myEmitter.on('event', function(a, b) {
