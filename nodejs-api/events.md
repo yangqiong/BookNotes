@@ -5,5 +5,19 @@ Nodejs Events模块只是发布-订阅模式（观察者模式）的一种官方
 * 执行顺序：如果对同一个事件监听了多次，当触发此事件时，按监听的顺序执行回调函数。
 * 回调函数的执行过程是同步的，一个接着一个执行。
 
+## 特殊情况
+
+希望回调函数的能够异步执行
+
+```
+var myEmitter = new MyEmitter();
+myEmitter.on('event', (a, b) => {
+    setImmediate(() => {
+        console.log('this happens asynchronously');
+    });
+});
+myEmitter.emit('event', 'a', 'b');
+```
+
 
 
