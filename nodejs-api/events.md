@@ -89,7 +89,7 @@ process.on('uncaughtException', (err) => {
 myEmitter.emit('error', new Error('whoops!'));
 ```
 
-## 如果想回调异步执行
+## 异步执行
 
 希望回调函数的能够异步执行
 
