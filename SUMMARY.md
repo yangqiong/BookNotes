@@ -23,6 +23,9 @@
     * [Buffer方法](shen-ru-jian-chu-node-js/di-liuzhang-buffer/bufferqi-ta-fang-fa.md)
 * [Node.js API](nodejs-api.md)
   * [Events](nodejs-api/events.md)
+* [Orange'S 一个操作系统的实现](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian.md)
+  * [第一章 & 第二章](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang.md)
+    * boot.asm
 * [其他](qi-ta.md)
   * [字符编码](qi-ta/zi-fu-bian-ma.md)
 
