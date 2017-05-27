@@ -25,8 +25,9 @@
   * [Events](nodejs-api/events.md)
 * [Orange'S 一个操作系统的实现](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian.md)
   * [第一章 & 第二章](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang.md)
-    * boot.asm
+    * [boot.asm](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang/bootasm.md)
     * [bootsrc](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang/bootsrc.md)
+    * [最小的操作系统](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang/zui-xiao-de-cao-zuo-xi-tong.md)
 * [其他](qi-ta.md)
   * [字符编码](qi-ta/zi-fu-bian-ma.md)
 
