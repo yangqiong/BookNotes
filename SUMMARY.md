@@ -26,6 +26,7 @@
 * [Orange'S 一个操作系统的实现](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian.md)
   * [第一章 & 第二章](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang.md)
     * boot.asm
+    * [bootsrc](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang/bootsrc.md)
 * [其他](qi-ta.md)
   * [字符编码](qi-ta/zi-fu-bian-ma.md)
 
