@@ -25,5 +25,9 @@ mouse: enabled=0
 keyboard: keymap=/usr/local/Cellar/bochs/2.6.8_1/share/bochs/keymaps/sdl-pc-us.map
 ```
 
+## 计算机启动
+
+计算机电源被打开时，它会先进行自检（POST），然后寻找启动盘，如果是选择从软盘启动（floppy），计算机就先检查软盘的0面0磁道1扇区，如果发现它以0xAA55结束，则BIOS认为它是一个引导扇区。
+
 
 
