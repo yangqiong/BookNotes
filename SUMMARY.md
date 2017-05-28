@@ -4,6 +4,7 @@
 * [汇编语言](hui-bian-yu-yan.md)
   * [实验](hui-bian-yu-yan/shi-yan.md)
     * [MAX安装环境](hui-bian-yu-yan/shi-yan/maxan-zhuang-huan-jing.md)
+    * [实验一 查看CPU和内存，用机器指令和汇编指令编程](hui-bian-yu-yan/shi-yan/shi-yan-yi-cha-kan-cpu-he-nei-cun-ff0c-yong-ji-qi-zhi-ling-he-hui-bian-zhi-ling-bian-cheng.md)
   * [第一章 基础知识](hui-bian-yu-yan/di-yi-zhang-ji-chu-zhi-shi.md)
     * [总线](hui-bian-yu-yan/di-yi-zhang-ji-chu-zhi-shi/zong-xian.md)
     * [内存地址空间](hui-bian-yu-yan/di-yi-zhang-ji-chu-zhi-shi/nei-cun-di-zhi-kong-jian.md)
