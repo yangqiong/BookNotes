@@ -20,6 +20,7 @@
   * [第五章 \[BX\]和段前缀](hui-bian-yu-yan/di-wu-zhang-bx-he-duan-qian-zhui.md)
   * 第六章 包含多个段的程序
   * [第七章 更灵活的定位内存地址的方法](hui-bian-yu-yan/di-qi-zhang-geng-ling-huo-de-ding-wei-nei-cun-di-zhi-de-fang-fa.md)
+  * [第八章 数据处理的两个基本问题](hui-bian-yu-yan/di-ba-zhang-shu-ju-chu-li-de-liang-ge-ji-ben-wen-ti.md)
 * [深入检出Node.js](shen-ru-jian-chu-node-js.md)
   * [第五章 内存控制](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi.md)
     * [内存信息](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/nei-cun-xin-xi.md)
