@@ -11,6 +11,8 @@
   * [第二章 寄存器](hui-bian-yu-yan/di-er-zhang-ji-cun-qi.md)
     * [通用寄存器](hui-bian-yu-yan/di-er-zhang-ji-cun-qi/tong-yong-ji-cun-qi.md)
     * [段寄存器](hui-bian-yu-yan/di-er-zhang-ji-cun-qi/duan-ji-cun-qi.md)
+  * [第三章 寄存器（内存访问）](hui-bian-yu-yan/di-san-zhang-ji-cun-qi-ff08-nei-cun-fang-wen-ff09.md)
+    * [内存数据](hui-bian-yu-yan/di-san-zhang-ji-cun-qi-ff08-nei-cun-fang-wen-ff09/nei-cun-shu-ju.md)
 * [深入检出Node.js](shen-ru-jian-chu-node-js.md)
   * [第五章 内存控制](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi.md)
     * [内存信息](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/nei-cun-xin-xi.md)
