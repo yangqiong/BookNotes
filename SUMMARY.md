@@ -14,6 +14,8 @@
   * [第三章 寄存器（内存访问）](hui-bian-yu-yan/di-san-zhang-ji-cun-qi-ff08-nei-cun-fang-wen-ff09.md)
     * [内存数据](hui-bian-yu-yan/di-san-zhang-ji-cun-qi-ff08-nei-cun-fang-wen-ff09/nei-cun-shu-ju.md)
     * [栈](hui-bian-yu-yan/di-san-zhang-ji-cun-qi-ff08-nei-cun-fang-wen-ff09/zhan.md)
+  * 第四章 第一个程序
+    * [伪指令](hui-bian-yu-yan/wei-zhi-ling.md)
 * [深入检出Node.js](shen-ru-jian-chu-node-js.md)
   * [第五章 内存控制](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi.md)
     * [内存信息](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/nei-cun-xin-xi.md)
