@@ -18,6 +18,7 @@
     * [伪指令](hui-bian-yu-yan/wei-zhi-ling.md)
     * [编译与运行](hui-bian-yu-yan/bian-yi-yu-yun-xing.md)
   * [第五章 \[BX\]和段前缀](hui-bian-yu-yan/di-wu-zhang-bx-he-duan-qian-zhui.md)
+  * 第六章 包含多个段的程序
 * [深入检出Node.js](shen-ru-jian-chu-node-js.md)
   * [第五章 内存控制](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi.md)
     * [内存信息](shen-ru-jian-chu-node-js/di-wu-zhang-nei-cun-kong-zhi/nei-cun-xin-xi.md)
