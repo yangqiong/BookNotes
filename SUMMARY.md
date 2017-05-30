@@ -43,6 +43,9 @@
     * [boot.asm](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang/bootasm.md)
     * [bootsrc](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang/bootsrc.md)
     * [最小的操作系统](oranges-yi-ge-cao-zuo-xi-tong-de-shi-xian/di-yi-zhang-and-di-er-zhang/zui-xiao-de-cao-zuo-xi-tong.md)
+* [Linux程序设计](linuxcheng-xu-she-ji.md)
+  * [第11章 进程和信号](linuxcheng-xu-she-ji/di-11-zhang-jin-cheng-he-xin-hao.md)
+    * 进程
 * [其他](qi-ta.md)
   * [字符编码](qi-ta/zi-fu-bian-ma.md)
 
