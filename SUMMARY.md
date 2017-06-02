@@ -52,7 +52,7 @@
     * [ARP协议](linuxgao-xing-neng-fu-wu-qi-bian-cheng/di-1-zhang-tcp-ip-xie-yi-cu/arpxie-yi.md)
   * [第2章 IP协议讲解](linuxgao-xing-neng-fu-wu-qi-bian-cheng/di-2-zhang-ip-xie-yi-jiang-jie.md)
     * [IP协议](linuxgao-xing-neng-fu-wu-qi-bian-cheng/di-2-zhang-ip-xie-yi-jiang-jie/ipxie-yi.md)
-    * ICMP协议
+    * [ICMP协议](linuxgao-xing-neng-fu-wu-qi-bian-cheng/di-2-zhang-ip-xie-yi-jiang-jie/icmpxie-yi.md)
 * [其他](qi-ta.md)
   * [字符编码](qi-ta/zi-fu-bian-ma.md)
 
